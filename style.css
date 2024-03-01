@@ -1,52 +1,58 @@
-body{
-    box-sizing: border-box;   
-     background-color: #333333;
+body {
+  box-sizing: border-box;
+  background-color: #333333;
+  width: 100%;
 }
-.title{
-    text-transform: capitalize;
-    text-align: center;
-    color: white;
-    padding: 20px;
+
+.title {
+  text-transform: capitalize;
+  text-align: center;
+  color: white;
+  padding: 20px;
 }
-.nav-li a{
-    color: white;
-    text-decoration: none;
-    margin-right: 10px;
- 
+
+.nav-li a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
 }
-.nav-li{
-display: inline;
+
+.nav-li {
+  display: inline;
 }
+
 ul {
-    list-style-type: none;   
-  }
+  list-style-type: none;
+}
 
-  .navigation{
-    background-color: #DCDCDC;
-    padding: 20px;
-  }
+.navigation {
+  background-color: #dcdcdc;
+  padding: 20px;
+}
 
-  .section-container{
-    background-color: white;
-    padding: 20px;
-  }
-  
-  .section-container h2{
-    text-transform: capitalize;
-  }
-  .sidebar-container{
-    background-color: #DCDCDC;
-    padding: 50px; 
-    display: inline-block;
- 
-  }
-  .mainbar-container{
-    display: inline-block;
-    margin-right: 1000px;
-  }
-  .footer{
-    text-transform: capitalize;
-    text-align: center;
-    color: white;
-    padding: 20px;
-  }
+.section-container {
+  background-color: white;
+  padding: 20px;
+}
+
+.section-container h2 {
+  text-transform: capitalize;
+}
+
+.sidebar-container {
+  background-color: #dcdcdc;
+  padding: 80px;
+  display: inline-block;
+}
+
+.mainbar-container {
+  display: inline-block;
+  width: 85%;
+}
+
+.footer {
+  text-transform: capitalize;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
