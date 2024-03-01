@@ -43,11 +43,13 @@ ul {
   background-color: #dcdcdc;
   padding: 50px;
   display: inline-block;
+  box-sizing: border-box;
 }
 
 .mainbar-container {
   display: inline-block;
   width: 70%;
+  box-sizing: border-box;
 }
 
 .footer {
